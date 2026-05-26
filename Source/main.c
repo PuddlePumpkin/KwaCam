@@ -728,7 +728,7 @@ int main(int argc, char* argv[]) {
                     play_sound(&snd_open, 1);
                     touch_held = true;
                 } else if (touch.px >= 18 && touch.px <= 152 && touch.py >= 108 && touch.py <= 182) {
-                    kDown |= KEY_Y;
+                    kDown |= KEY_X;
                 }
             }
         }

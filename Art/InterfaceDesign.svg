@@ -28,14 +28,14 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
      inkscape:zoom="2.0000001"
-     inkscape:cx="202.99999"
+     inkscape:cx="203.49999"
      inkscape:cy="86.749996"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer4"
      showguides="true"><inkscape:page
        x="0"
        y="0"
@@ -716,9 +716,9 @@
          inkscape:label="TitleText"><tspan
            x="47"
            y="44.963872"
-           id="tspan38"><tspan
+           id="tspan2"><tspan
              style="font-weight:normal;font-family:'Cherry Bomb';-inkscape-font-specification:'Cherry Bomb'"
-             id="tspan37">Kwa Camera</tspan></tspan></text></g></g><g
+             id="tspan1">Kwa Camera</tspan></tspan></text></g></g><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
@@ -777,7 +777,7 @@
            inkscape:label="ButtonLabel"><tspan
              x="47"
              y="38.206035"
-             id="tspan39">A
+             id="tspan3">A
 </tspan></text></g><text
          xml:space="preserve"
          transform="matrix(0.35545871,0,0,0.35545871,-6.684246,70.960186)"
@@ -786,9 +786,9 @@
          inkscape:label="Capture Text"><tspan
            x="47"
            y="39.04"
-           id="tspan45"><tspan
+           id="tspan15"><tspan
              style="font-weight:normal;font-family:'Mochiy Pop P One';-inkscape-font-specification:'Mochiy Pop P One'"
-             id="tspan44">Capture</tspan></tspan></text></g><g
+             id="tspan4">Capture</tspan></tspan></text></g><g
        id="g57-1"
        inkscape:label="Options"
        transform="matrix(1.7021932,0,0,1.7021932,33.207721,-56.086553)"><g
@@ -826,7 +826,7 @@
          inkscape:label="Config"><tspan
            x="47"
            y="39.04"
-           id="tspan46">Options</tspan></text><g
+           id="tspan16">Options</tspan></text><g
          id="g4-4"
          inkscape:label="StartButton"
          transform="matrix(0.92272886,0,0,0.92272886,-12.853852,-66.055397)"><rect
@@ -852,7 +852,7 @@
            inkscape:label="ButtonLabel"><tspan
              x="47"
              y="37.811631"
-             id="tspan47">Start
+             id="tspan17">Start
 </tspan></text></g><g
          id="g18-2-6-0-8-5"
          inkscape:label="FaceButtonBlur"
@@ -878,7 +878,7 @@
            inkscape:label="ButtonLabel"><tspan
              x="47"
              y="38.206035"
-             id="tspan48">B</tspan></text></g></g><g
+             id="tspan18">B</tspan></text></g></g><g
        id="g57-5"
        inkscape:label="Blur"
        transform="matrix(1.7021932,0,0,1.7021932,-6.3651733,-35.416414)"><g
@@ -908,7 +908,7 @@
          x="6.5481033"
          y="78.356934"
          ry="0"
-         inkscape:label="Clickbox(Y)" /><g
+         inkscape:label="Clickbox(X)" /><g
          id="g18-2-6-0-8"
          inkscape:label="FaceButtonBlur"
          transform="matrix(0.74965277,0,0,0.74965277,-5.1299523,20.386384)"><circle
@@ -932,7 +932,7 @@
            inkscape:label="ButtonLabel"><tspan
              x="47"
              y="38.206035"
-             id="tspan49">X</tspan></text></g><text
+             id="tspan19">X</tspan></text></g><text
          xml:space="preserve"
          transform="matrix(0.35545871,0,0,0.35545871,-3.4319626,71.085546)"
          id="text3-6"
@@ -940,7 +940,7 @@
          inkscape:label="Blur Text"><tspan
            x="47"
            y="39.04"
-           id="tspan50">Blur</tspan></text></g><g
+           id="tspan20">Blur</tspan></text></g><g
        id="g20"
        inkscape:label="Save"
        transform="translate(0,0.79375)"><g
@@ -969,7 +969,7 @@
            inkscape:label="ButtonLabel"><tspan
              x="47"
              y="37.811631"
-             id="tspan51">Select</tspan></text></g><text
+             id="tspan21">Select</tspan></text></g><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222px;font-family:'Mochiy Pop P One';-inkscape-font-specification:'Mochiy Pop P One Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;fill:#4e0d12;fill-opacity:1;stroke:url(#linearGradient58);stroke-width:1.29328;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-opacity:1"
          x="43.639824"
@@ -992,7 +992,7 @@
          inkscape:label="Pixel Sorting Text"><tspan
            x="47"
            y="39.04"
-           id="tspan52">Pixel Sorting</tspan></text><g
+           id="tspan22">Pixel Sorting</tspan></text><g
          id="g5-0"
          transform="matrix(0.26458333,0,0,0.26458333,70.794582,73.390757)"
          inkscape:label="Dpad"><g
@@ -1059,7 +1059,7 @@
            inkscape:label="ButtonLabel"><tspan
              x="47"
              y="38.206035"
-             id="tspan53">Y</tspan></text></g><text
+             id="tspan23">Y</tspan></text></g><text
          xml:space="preserve"
          transform="matrix(0.9479647,0,0,0.9479647,14.912146,65.487145)"
          id="text3-2-6-1-5-1-7-8"
@@ -1067,7 +1067,7 @@
          inkscape:label="Plus"><tspan
            x="47"
            y="38.206035"
-           id="tspan54">+</tspan></text><rect
+           id="tspan24">+</tspan></text><rect
          style="fill:none;fill-opacity:1;stroke:#d57b8b;stroke-width:0.657211;stroke-dasharray:none;stroke-opacity:1"
          id="rect2-5-6-3-1-9-1"
          width="29.913864"
@@ -1198,9 +1198,9 @@
        y="0"><tspan
          x="49.462616"
          y="39.04"
-         id="tspan56"><tspan
+         id="tspan26"><tspan
            style="font-weight:bold;font-family:'Mochiy Pop P One';-inkscape-font-specification:'Mochiy Pop P One Bold'"
-           id="tspan55">Contrast
+           id="tspan25">Contrast
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.43026302,0,0,0.43026302,-4.2425659,29.072244)"
@@ -1211,9 +1211,9 @@
        y="0"><tspan
          x="49.876968"
          y="39.04"
-         id="tspan58"><tspan
+         id="tspan28"><tspan
            style="font-weight:bold;font-family:'Mochiy Pop P One';-inkscape-font-specification:'Mochiy Pop P One Bold'"
-           id="tspan57">Threshold Min
+           id="tspan27">Threshold Min
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.43026302,0,0,0.43026302,-3.7943336,15.435189)"
@@ -1224,7 +1224,7 @@
        y="0"><tspan
          x="48.691193"
          y="39.04"
-         id="tspan59">Blur Level</tspan></text><text
+         id="tspan29">Blur Level</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.43026302,0,0,0.43026302,-3.7082627,23.773726)"
        id="text3-33-0-8-4"
@@ -1234,7 +1234,7 @@
        y="0"><tspan
          x="48.571152"
          y="39.04"
-         id="tspan61">Sorting Mode</tspan></text><text
+         id="tspan30">Sorting Mode</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.43026302,0,0,0.43026302,-3.7231987,34.013826)"
        id="text3-33-0-2"
@@ -1244,9 +1244,9 @@
        y="0"><tspan
          x="48.669876"
          y="39.04"
-         id="tspan63"><tspan
+         id="tspan32"><tspan
            style="font-weight:bold;font-family:'Mochiy Pop P One';-inkscape-font-specification:'Mochiy Pop P One Bold'"
-           id="tspan62">Threshold Max
+           id="tspan31">Threshold Max
 </tspan></tspan></text><g
        id="g29"
        transform="translate(0.63462404,-0.72609416)"
@@ -1711,9 +1711,9 @@
          inkscape:label="TitleText"><tspan
            x="47"
            y="44.963872"
-           id="tspan65"><tspan
+           id="tspan34"><tspan
              style="font-weight:normal;font-family:'Cherry Bomb';-inkscape-font-specification:'Cherry Bomb'"
-             id="tspan64">Options</tspan></tspan></text></g></g><g
+             id="tspan33">Options</tspan></tspan></text></g></g><g
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="PipsAnchors"
@@ -2003,7 +2003,7 @@
          inkscape:label="ButtonLabel"><tspan
            x="47"
            y="38.206035"
-           id="tspan66">A
+           id="tspan35">A
 </tspan></text></g><g
        id="g37"
        inkscape:label="ShoulderButton"
@@ -2025,7 +2025,7 @@
          inkscape:label="ButtonLabel"><tspan
            x="47"
            y="38.206035"
-           id="tspan67">R
+           id="tspan36">R
 </tspan></text></g><g
        id="g37-8"
        inkscape:label="SelectTemplate"
@@ -2051,7 +2051,7 @@
          inkscape:label="ButtonLabel"><tspan
            x="47"
            y="37.811631"
-           id="tspan68">Select</tspan></text></g><g
+           id="tspan37">Select</tspan></text></g><g
        id="g39-6-13-0"
        inkscape:label="TapableButtonTemplate"
        transform="matrix(1.7021932,0,0,1.7021932,-21.36362,-114.61845)"><rect
