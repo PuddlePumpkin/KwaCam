@@ -1,0 +1,5 @@
+*.t3s
+*.t3x
+/BuildInternal
+External/bannertool.exe
+External/makerom.exe

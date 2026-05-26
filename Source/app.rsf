@@ -1,0 +1,16 @@
+BasicInfo:
+  Title                   : "KwaCam"
+  CompanyCode             : "00"
+  ProductCode             : "CTR-P-KWAC"
+  ContentType             : Application
+  Logo                    : Nintendo
+
+TitleInfo:
+  Category                : Application
+  UniqueId                : 0x12345
+
+SystemControlInfo:
+  SaveDataSize            : 0KB
+  RemasterVersion         : 0
+  StackSize               : 0x00010000
+  Dependency              : []
