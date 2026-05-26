@@ -115,7 +115,6 @@ int sort_threshold_max = 10;
 int top_dirty_frames = 0;
 int sort_accum_x = 0;
 int sort_accum_y = 0;
-bool bottom_needs_redraw = true;
 
 #define MENU_ITEMS 5
 #define SORT_METRIC_COUNT 4
@@ -698,7 +697,6 @@ int main(int argc, char* argv[]) {
 
     memset(cam_buf, 0, CAM_FRAME_BYTES);
 
-    bottom_needs_redraw = true;
 
     int menu_repeat_key = 0;
     int menu_repeat_frames = 0;
@@ -727,7 +725,6 @@ int main(int argc, char* argv[]) {
                     menu_open = 1;
                     menu_repeat_key = 0;
                     menu_repeat_frames = 0;
-                    bottom_needs_redraw = true;
                     play_sound(&snd_open, 1);
                     touch_held = true;
                 } else if (touch.px >= 18 && touch.px <= 152 && touch.py >= 108 && touch.py <= 182) {
@@ -740,17 +737,15 @@ int main(int argc, char* argv[]) {
             menu_open = !menu_open;
             menu_repeat_key = 0;
             menu_repeat_frames = 0;
-            bottom_needs_redraw = true;
             play_sound(&snd_open, 1);
         }
 
         if (menu_open) {
-            if (kDown & KEY_X) {
+            if (kDown & KEY_Y) {
                 menu_open = 0;
                 closed_menu_with_x = 1;
                 menu_repeat_key = 0;
                 menu_repeat_frames = 0;
-                bottom_needs_redraw = true;
                 play_sound(&snd_open, 1);
             }
 
@@ -759,7 +754,6 @@ int main(int argc, char* argv[]) {
                 if (menu_index < 0) menu_index = MENU_ITEMS - 1;
                 menu_repeat_key = 0;
                 menu_repeat_frames = 0;
-                bottom_needs_redraw = true;
                 play_sound(&snd_change, 1);
             }
             if (kDown & KEY_DDOWN) {
@@ -767,7 +761,6 @@ int main(int argc, char* argv[]) {
                 if (menu_index >= MENU_ITEMS) menu_index = 0;
                 menu_repeat_key = 0;
                 menu_repeat_frames = 0;
-                bottom_needs_redraw = true;
                 play_sound(&snd_change, 1);
             }
 
@@ -799,7 +792,6 @@ int main(int argc, char* argv[]) {
                         closed_menu_with_x = 1; /* reuse this to prevent sorting in the same frame */
                         menu_repeat_key = 0;
                         menu_repeat_frames = 0;
-                        bottom_needs_redraw = true;
                         play_sound(&snd_open, 1);
                         touch_held = true;
                     }
@@ -853,42 +845,32 @@ int main(int argc, char* argv[]) {
                 if (menu_index == 0 && contrast > CONTRAST_MIN) {
                     contrast--;
                     top_dirty_frames = 2;
-                    bottom_needs_redraw = true;
                 } else if (menu_index == 1 && blur_strength > BLUR_MIN) {
                     blur_strength--;
-                    bottom_needs_redraw = true;
                 } else if (menu_index == 2) {
                     sort_metric--;
                     if (sort_metric < 0) sort_metric = SORT_METRIC_COUNT - 1;
-                    bottom_needs_redraw = true;
                 } else if (menu_index == 3 && sort_threshold_min > 0) {
                     sort_threshold_min--;
-                    bottom_needs_redraw = true;
                 } else if (menu_index == 4 && sort_threshold_max > 0) {
                     sort_threshold_max--;
                     if (sort_threshold_max < sort_threshold_min) sort_threshold_min = sort_threshold_max;
-                    bottom_needs_redraw = true;
                 }
             }
             if (adjust > 0) {
                 if (menu_index == 0 && contrast < CONTRAST_MAX) {
                     contrast++;
                     top_dirty_frames = 2;
-                    bottom_needs_redraw = true;
                 } else if (menu_index == 1 && blur_strength < BLUR_MAX) {
                     blur_strength++;
-                    bottom_needs_redraw = true;
                 } else if (menu_index == 2) {
                     sort_metric++;
                     if (sort_metric >= SORT_METRIC_COUNT) sort_metric = 0;
-                    bottom_needs_redraw = true;
                 } else if (menu_index == 3 && sort_threshold_min < 10) {
                     sort_threshold_min++;
                     if (sort_threshold_min > sort_threshold_max) sort_threshold_max = sort_threshold_min;
-                    bottom_needs_redraw = true;
                 } else if (menu_index == 4 && sort_threshold_max < 10) {
                     sort_threshold_max++;
-                    bottom_needs_redraw = true;
                 }
             }
         } else {
