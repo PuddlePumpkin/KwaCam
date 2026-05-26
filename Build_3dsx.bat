@@ -1,8 +1,19 @@
 @echo off
-set MSYS2_PATH=C:\msys64\usr\bin\bash.exe
 set "SCRIPT_DIR=%~dp0"
 set "PROJECT_DIR=%SCRIPT_DIR:\=/%"
 set "PROJECT_DIR=/%PROJECT_DIR::=%"
+
+:: Look for devkitPro MSYS2 path first, fallback to vanilla msys64
+set "MSYS2_PATH=C:\devkitPro\msys2\usr\bin\bash.exe"
+if not exist "%MSYS2_PATH%" (
+    set "MSYS2_PATH=C:\msys64\usr\bin\bash.exe"
+)
+
+if not exist "%MSYS2_PATH%" (
+    echo ERROR: Could not find bash.exe. Please ensure devkitPro is installed correctly.
+    pause
+    exit /b 1
+)
 
 setlocal enabledelayedexpansion
 for %%f in (Textures\*.png) do (
@@ -36,6 +47,6 @@ if %ERRORLEVEL% equ 0 (
     echo Build failed.
     exit /b %ERRORLEVEL%
 )
-
+echo.
 echo Built KwaCam.3dsx to BuildOutputs.
-timeout /t 5
+pause

@@ -1,3 +1,47 @@
-Run generate_t3s.bat to generate t3s descriptors for images in gfx directory.
+<p align="center">
+  <img src="Art/banner.png" />
+</p>
 
-Audio requires dsp firmware to be dumped (Left Shoulder, Dpad Down, Select) -> Misc -> dump dsp
+<h1 align="center">A silly little pixel sorter camera for taking glitch art photographs</h1>
+
+<p align="center">
+  <img src="Art/UiScreenshot.png" />
+</p>
+
+## Features:
+- Configurable Pixel sorter, sort by brightness or color channels.
+- Pixel sorter thresholding, only sort pixels above or below specified threshold.
+- Kernel blur
+
+Photos are saved to the SD card in the `3ds/KwaCam/Captures` folder as bitmap .bmp files.
+
+## Controls
+- X + D-Pad / Analog Stick: Sort Pixels
+- A: Take photo
+- Y: Blur photo
+- Start: Open config menu
+- Select: Save photo to SD card
+
+## Installation
+To install and run this app on your custom firmware 3DS, you have two options depending on your preferred format:
+
+**Option 1: CIA (Install to Home Menu)**
+1. Copy the `KwaCam.cia` file to your 3DS's SD card.
+2. Install via [FBI](https://github.com/Steveice10/FBI).
+3. **Important for Audio:** Your 3DS needs its DSP firmware dumped to play audio (even if running in Azahar emulator). Open the Rosalina Menu (`Left Shoulder + D-Pad Down + Select`) -> `Misc options` -> `Dump DSP Firmware`.
+
+**Option 2: 3DSX (Run via Homebrew Launcher)**
+1. Create a folder named `KwaCam` inside the `3ds` folder on your SD card (`sdmc:/3ds/KwaCam/`).
+2. Copy the `KwaCam.3dsx` file into that folder.
+3. Launch the app through the Homebrew Launcher.
+4. **Important for Audio:** Your 3DS needs its DSP firmware dumped to play audio (even if running in Azahar emulator). Open the Rosalina Menu (`Left Shoulder + D-Pad Down + Select`) -> `Misc options` -> `Dump DSP Firmare`.
+
+
+## Building
+This project requires [devkitPro](https://devkitpro.org/wiki/Getting_Started) to compile.
+1. Download devkit pro with 3ds configuration: https://devkitpro.org/wiki/Getting_Started
+2. Run Build_3dsx.bat file to compile the project!
+
+Building cia requires [makerom.exe](https://github.com/3DSGuy/Project_CTR/releases/tag/makerom-v0.19.0), and [bannertool.exe](https://github.com/Epicpkmn11/bannertool/releases/tag/v1.2.2) to be placed in the `External` folder
+
+⚠️ Warning, im new 3ds development a lot of chat gpt was used in building this app!

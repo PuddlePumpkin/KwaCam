@@ -9,8 +9,8 @@
    id="svg1"
    xml:space="preserve"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
-   sodipodi:docname="3dsDesign.svg"
-   inkscape:export-filename="3dsDesignLayer0.png"
+   sodipodi:docname="InterfaceDesign.svg"
+   inkscape:export-filename="3dsDesignLayer1.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
-     inkscape:zoom="2.8284272"
-     inkscape:cx="171.47339"
-     inkscape:cy="126.04178"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="180.5"
+     inkscape:cy="78.249998"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -703,9 +703,9 @@
          inkscape:label="TitleText"><tspan
            x="47"
            y="44.963872"
-           id="tspan38"><tspan
+           id="tspan2"><tspan
              style="font-weight:normal;font-family:'Cherry Bomb';-inkscape-font-specification:'Cherry Bomb'"
-             id="tspan37">Kwa Camera</tspan></tspan></text></g></g><g
+             id="tspan1">Kwa Camera</tspan></tspan></text></g></g><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
@@ -765,7 +765,7 @@
            inkscape:label="ButtonLabel"><tspan
              x="47"
              y="38.206035"
-             id="tspan39">A
+             id="tspan3">A
 </tspan></text></g><text
          xml:space="preserve"
          transform="matrix(0.35545871,0,0,0.35545871,-6.684246,70.960186)"
@@ -774,9 +774,9 @@
          inkscape:label="Capture Text"><tspan
            x="47"
            y="39.04"
-           id="tspan45"><tspan
+           id="tspan15"><tspan
              style="font-weight:normal;font-family:'Mochiy Pop P One';-inkscape-font-specification:'Mochiy Pop P One'"
-             id="tspan44">Capture</tspan></tspan></text></g><g
+             id="tspan4">Capture</tspan></tspan></text></g><g
        id="g57-1"
        inkscape:label="Options"
        transform="matrix(1.7021932,0,0,1.7021932,33.207721,-56.086553)"
@@ -815,7 +815,7 @@
          inkscape:label="Config"><tspan
            x="47"
            y="39.04"
-           id="tspan46">Options</tspan></text><g
+           id="tspan16">Options</tspan></text><g
          id="g4-4"
          inkscape:label="StartButton"
          transform="matrix(0.92272886,0,0,0.92272886,-11.864659,-44.567922)"><rect
@@ -841,7 +841,7 @@
            inkscape:label="ButtonLabel"><tspan
              x="47"
              y="37.811631"
-             id="tspan47">Start
+             id="tspan17">Start
 </tspan></text></g></g><g
        id="g57-5"
        inkscape:label="Blur"
@@ -897,7 +897,7 @@
            inkscape:label="ButtonLabel"><tspan
              x="47"
              y="38.206035"
-             id="tspan48">Y</tspan></text></g><text
+             id="tspan18">Y</tspan></text></g><text
          xml:space="preserve"
          transform="matrix(0.35545871,0,0,0.35545871,-3.4319626,71.085546)"
          id="text3-6"
@@ -905,7 +905,7 @@
          inkscape:label="Blur Text"><tspan
            x="47"
            y="39.04"
-           id="tspan49">Blur</tspan></text></g><g
+           id="tspan19">Blur</tspan></text></g><g
        id="g20"
        inkscape:label="Save"
        transform="translate(0,0.79375)"
@@ -935,7 +935,7 @@
            inkscape:label="ButtonLabel"><tspan
              x="47"
              y="37.811631"
-             id="tspan50">Select</tspan></text></g><text
+             id="tspan20">Select</tspan></text></g><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222px;font-family:'Mochiy Pop P One';-inkscape-font-specification:'Mochiy Pop P One Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;fill:#4e0d12;fill-opacity:1;stroke:url(#linearGradient58);stroke-width:1.29328;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-opacity:1"
          x="43.639824"
@@ -959,7 +959,7 @@
          inkscape:label="Pixel Sorting Text"><tspan
            x="47"
            y="39.04"
-           id="tspan51">Pixel Sorting</tspan></text><g
+           id="tspan21">Pixel Sorting</tspan></text><g
          id="g5-0"
          transform="matrix(0.26458333,0,0,0.26458333,70.794582,73.390757)"
          inkscape:label="Dpad"><g
@@ -1026,7 +1026,7 @@
            inkscape:label="ButtonLabel"><tspan
              x="47"
              y="38.206035"
-             id="tspan52">X</tspan></text></g><text
+             id="tspan22">X</tspan></text></g><text
          xml:space="preserve"
          transform="matrix(0.9479647,0,0,0.9479647,14.912146,65.487145)"
          id="text3-2-6-1-5-1-7-8"
@@ -1034,7 +1034,7 @@
          inkscape:label="Plus"><tspan
            x="47"
            y="38.206035"
-           id="tspan53">+</tspan></text><rect
+           id="tspan23">+</tspan></text><rect
          style="fill:none;fill-opacity:1;stroke:#d57b8b;stroke-width:0.657211;stroke-dasharray:none;stroke-opacity:1"
          id="rect2-5-6-3-1-9-1"
          width="29.913864"
@@ -1166,9 +1166,9 @@
        y="0"><tspan
          x="49.462616"
          y="39.04"
-         id="tspan55"><tspan
+         id="tspan25"><tspan
            style="font-weight:bold;font-family:'Mochiy Pop P One';-inkscape-font-specification:'Mochiy Pop P One Bold'"
-           id="tspan54">Contrast
+           id="tspan24">Contrast
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.43026302,0,0,0.43026302,-4.2425659,29.072244)"
@@ -1179,9 +1179,9 @@
        y="0"><tspan
          x="49.876968"
          y="39.04"
-         id="tspan57"><tspan
+         id="tspan27"><tspan
            style="font-weight:bold;font-family:'Mochiy Pop P One';-inkscape-font-specification:'Mochiy Pop P One Bold'"
-           id="tspan56">Threshold Min
+           id="tspan26">Threshold Min
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.43026302,0,0,0.43026302,-3.7943336,15.435189)"
@@ -1192,7 +1192,7 @@
        y="0"><tspan
          x="48.691193"
          y="39.04"
-         id="tspan58">Blur Level</tspan></text><text
+         id="tspan28">Blur Level</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.43026302,0,0,0.43026302,-3.7082627,23.773726)"
        id="text3-33-0-8-4"
@@ -1202,7 +1202,7 @@
        y="0"><tspan
          x="48.571152"
          y="39.04"
-         id="tspan59">Sorting Mode</tspan></text><text
+         id="tspan29">Sorting Mode</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.43026302,0,0,0.43026302,-3.7231987,34.013826)"
        id="text3-33-0-2"
@@ -1212,9 +1212,9 @@
        y="0"><tspan
          x="48.669876"
          y="39.04"
-         id="tspan62"><tspan
+         id="tspan31"><tspan
            style="font-weight:bold;font-family:'Mochiy Pop P One';-inkscape-font-specification:'Mochiy Pop P One Bold'"
-           id="tspan61">Threshold Max
+           id="tspan30">Threshold Max
 </tspan></tspan></text><g
        id="g29"
        transform="translate(0.63462404,-0.72609416)"
@@ -1244,7 +1244,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="0,33 -6,25 6,25 "
+           points="6,25 0,33 -6,25 "
            fill="#ca7280"
            id="polygon7-1-9-7-0"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1282,7 +1282,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="-6,25 6,25 0,33 "
+           points="0,33 -6,25 6,25 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-6"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1331,7 +1331,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="-6,25 6,25 0,33 "
+           points="0,33 -6,25 6,25 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1369,7 +1369,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="0,33 -6,25 6,25 "
+           points="6,25 0,33 -6,25 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9-4"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1419,7 +1419,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="6,25 0,33 -6,25 "
+           points="-6,25 6,25 0,33 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9-8"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1457,7 +1457,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="0,33 -6,25 6,25 "
+           points="6,25 0,33 -6,25 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9-8-4"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1506,7 +1506,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="6,25 0,33 -6,25 "
+           points="-6,25 6,25 0,33 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9-5"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1544,7 +1544,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="0,33 -6,25 6,25 "
+           points="6,25 0,33 -6,25 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9-5-8"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1593,7 +1593,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="-6,25 6,25 0,33 "
+           points="0,33 -6,25 6,25 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9-6"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1631,7 +1631,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="6,25 0,33 -6,25 "
+           points="-6,25 6,25 0,33 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9-6-4"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1679,40 +1679,40 @@
          inkscape:label="TitleText"><tspan
            x="47"
            y="44.963872"
-           id="tspan64"><tspan
+           id="tspan33"><tspan
              style="font-weight:normal;font-family:'Cherry Bomb';-inkscape-font-specification:'Cherry Bomb'"
-             id="tspan63">Options</tspan></tspan></text></g></g><g
+             id="tspan32">Options</tspan></tspan></text></g></g><g
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="PipsAnchors"
      inkscape:highlight-color="#21f365"
      style="display:none"
      sodipodi:insensitive="true"><polygon
-       points="-6,25 6,25 0,33 "
+       points="0,33 -6,25 6,25 "
        fill="#ca7280"
        id="polygon7-1-9"
        transform="matrix(0,-0.28310822,0.41733901,0,1.0786029,17.778524)"
        style="display:inline;fill:#4e0d12;fill-opacity:1"
        inkscape:label="PipAnchorContrast" /><polygon
-       points="0,33 -6,25 6,25 "
+       points="6,25 0,33 -6,25 "
        fill="#ca7280"
        id="polygon7-1-9-0"
        transform="matrix(0,-0.28310822,0.41733901,0,1.0786029,27.503549)"
        style="display:inline;fill:#4e0d12;fill-opacity:1"
        inkscape:label="PipAnchorBlur" /><polygon
-       points="-6,25 6,25 0,33 "
+       points="0,33 -6,25 6,25 "
        fill="#ca7280"
        id="polygon7-1-9-70"
        transform="matrix(0,-0.28310822,0.41733901,0,1.0786029,37.604486)"
        style="display:inline;fill:#4e0d12;fill-opacity:1"
        inkscape:label="PipAnchorSortingMode" /><polygon
-       points="-6,25 6,25 0,33 "
+       points="0,33 -6,25 6,25 "
        fill="#ca7280"
        id="polygon7-1-9-8"
        transform="matrix(0,-0.28310822,0.41733901,0,1.0786029,44.146845)"
        style="display:inline;fill:#4e0d12;fill-opacity:1"
        inkscape:label="PipAnchorSortingMin" /><polygon
-       points="6,25 0,33 -6,25 "
+       points="-6,25 6,25 0,33 "
        fill="#ca7280"
        id="polygon7-1-9-5"
        transform="matrix(0,-0.28310822,0.41733901,0,1.0786029,50.269063)"
@@ -1971,7 +1971,7 @@
          inkscape:label="ButtonLabel"><tspan
            x="47"
            y="38.206035"
-           id="tspan65">A
+           id="tspan34">A
 </tspan></text></g><g
        id="g37"
        inkscape:label="ShoulderButton"
@@ -1993,7 +1993,7 @@
          inkscape:label="ButtonLabel"><tspan
            x="47"
            y="38.206035"
-           id="tspan66">R
+           id="tspan35">R
 </tspan></text></g><g
        id="g37-8"
        inkscape:label="SelectTemplate"
@@ -2019,7 +2019,7 @@
          inkscape:label="ButtonLabel"><tspan
            x="47"
            y="37.811631"
-           id="tspan67">Select</tspan></text></g><g
+           id="tspan36">Select</tspan></text></g><g
        id="g39-6-13-0"
        inkscape:label="TapableButtonTemplate"
        transform="matrix(1.7021932,0,0,1.7021932,-21.36362,-114.61845)"><rect
