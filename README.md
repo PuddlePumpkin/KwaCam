@@ -49,7 +49,7 @@ Building cia requires [makerom.exe](https://github.com/3DSGuy/Project_CTR/releas
 
 ## Credits
 - Developed by Keira RK.
-- Project heavily uses devkitpro - https://devkitpro.org/ Thank you to them ❤️!
+- Project heavily uses the devkitpro team's 3ds tools - https://devkitpro.org/ Thank you to them ❤️!
 
 ## License
 Was too lazy to include a license, but I pinky promise you can use my SVG's, main.c code, the build scripts, and my project structure as templates for whatever! (just please don't sell my assets as part of an asset pack!). Button icon templates are found in `Art/InterfaceDesign.svg`
