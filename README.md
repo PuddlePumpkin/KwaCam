@@ -2,7 +2,7 @@
   <img src="Art/banner.png" />
 </p>
 
-<h1 align="center">A silly little pixel sorter camera for taking glitch art photographs</h1>
+<h1 align="center">A silly little homebrew pixel sorting camera for taking glitch art photos with a 3DS</h1>
 
 <p align="center">
   <img src="Art/UiScreenshot.png" />
@@ -23,7 +23,9 @@ Photos are saved to the SD card in the `3ds/KwaCam/Captures` folder as bitmap .b
 - Select: Save photo to SD card
 
 ## Installation
-To install and run this app on your custom firmware 3DS, you have two options depending on your preferred format:
+⚠️ Warning, I'm new 3ds development and a lot of chat gpt was used in building this app! ⚠️
+
+To install and run this app on your CFW 3DS, you have two options depending on your preferred format:
 
 **Option 1: CIA (Install to Home Menu)**
 1. Copy the `KwaCam.cia` file to your 3DS's SD card.
@@ -42,6 +44,6 @@ This project requires [devkitPro](https://devkitpro.org/wiki/Getting_Started) to
 1. Download devkit pro with 3ds configuration: https://devkitpro.org/wiki/Getting_Started
 2. Run Build_3dsx.bat file to compile the project!
 
-Building cia requires [makerom.exe](https://github.com/3DSGuy/Project_CTR/releases/tag/makerom-v0.19.0), and [bannertool.exe](https://github.com/Epicpkmn11/bannertool/releases/tag/v1.2.2) to be placed in the `External` folder
+Building cia requires [makerom.exe](https://github.com/3DSGuy/Project_CTR/releases), and [bannertool.exe](https://github.com/Epicpkmn11/bannertool/releases) to be placed in the `External` folder
 
-⚠️ Warning, im new 3ds development a lot of chat gpt was used in building this app!
+⚠️ Warning, I'm new 3ds development and a lot of chat gpt was used in building this app! ⚠️

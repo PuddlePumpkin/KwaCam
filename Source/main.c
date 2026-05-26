@@ -547,7 +547,7 @@ static void sort_horizontal(u16* img, int bright_right) {
 
 static int step_pixel_sorter(u32 keys, circlePosition stick) {
     if (!has_capture) return 0;
-    if (!(keys & KEY_X)) return 0;
+    if (!(keys & KEY_Y)) return 0;
 
     if (keys & KEY_DDOWN) {
         sort_accum_x = 0;
@@ -736,7 +736,7 @@ int main(int argc, char* argv[]) {
             }
         }
 
-        if (kDown & KEY_START) {
+        if (kDown & (KEY_START | KEY_B)) {
             menu_open = !menu_open;
             menu_repeat_key = 0;
             menu_repeat_frames = 0;
@@ -910,7 +910,7 @@ int main(int argc, char* argv[]) {
             }
         }
 
-        if (kDown & KEY_Y) {
+        if (kDown & KEY_X) {
             apply_kernel_blur();
         }
 
