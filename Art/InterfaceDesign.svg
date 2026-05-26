@@ -29,7 +29,7 @@
      inkscape:document-units="px"
      inkscape:zoom="2.0000001"
      inkscape:cx="202.99999"
-     inkscape:cy="46.749998"
+     inkscape:cy="86.749996"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -1020,19 +1020,19 @@
              transform="matrix(-0.33403803,0,0,-0.33403803,-56.599509,47.432229)"
              style="display:inline;fill:#ffc2d1;fill-opacity:1;stroke:none;stroke-width:5.23944;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter17-4)"
              sodipodi:nodetypes="sssscsssscsssscsssscs" /><polygon
-             points="-6,-25 6,-25 0,-33 "
+             points="0,-33 -6,-25 6,-25 "
              fill="#ca7280"
              id="polygon6-4"
              transform="matrix(-0.52375441,0,0,-0.52375441,-56.501058,42.499281)" /><polygon
-             points="-6,25 6,25 0,33 "
+             points="0,33 -6,25 6,25 "
              fill="#ca7280"
              id="polygon7-1"
              transform="matrix(-0.50478278,0,0,-0.50478278,-56.501058,52.952654)" /><polygon
-             points="-33,0 -25,-6 -25,6 "
+             points="-25,6 -33,0 -25,-6 "
              fill="#ca7280"
              id="polygon8-2"
              transform="matrix(-0.45735368,0,0,-0.45735368,-60.077212,47.545737)" /><polygon
-             points="-25,-6 -25,6 -33,0 "
+             points="-33,0 -25,-6 -25,6 "
              fill="#ca7280"
              id="polygon8-2-0"
              transform="matrix(0.45735368,0,0,-0.45735368,-53.013156,47.545737)" /></g></g><g
@@ -1113,11 +1113,11 @@
            ry="1.6158217"
            transform="matrix(-0.99997555,0.0069921,-0.01318759,-0.99991304,0,0)" /><path
            id="path29-8-8"
-           style="display:inline;fill:#fff8fa;stroke-width:0.112387;stroke-linejoin:round;fill-opacity:0.7145015"
+           style="display:inline;fill:#fff8fa;fill-opacity:0.714501;stroke-width:0.112387;stroke-linejoin:round"
            d="M 5.0373372,5.7310475 C 5.2894208,5.4640138 5.7636504,5.4359888 6.0965587,5.6684519 6.4294669,5.9009149 6.4949882,6.305837 6.2429046,6.5728707 6.09764,6.7267505 6.1867647,6.4144791 5.6701823,6.4280237 5.3505959,6.4364033 5.3247513,6.7339713 5.1836833,6.6354664 4.8507751,6.4030034 4.7852536,5.9980812 5.0373372,5.7310475 Z"
            sodipodi:nodetypes="ssssss" /></g><path
          id="path29-8-8-1"
-         style="display:inline;fill:#fff8fa;stroke-width:0.106456;stroke-linejoin:round;fill-opacity:0.63897282"
+         style="display:inline;fill:#fff8fa;fill-opacity:0.638973;stroke-width:0.106456;stroke-linejoin:round"
          d="M 0.08705218,5.6044713 C 0.41916126,5.4935451 0.85556497,5.5567349 1.1928205,5.6773773 1.606802,5.825466 1.5269028,6.0239144 1.2118117,6.2270939 0.68844262,6.564577 0.49317113,6.9027542 0.138584,6.4808104 -0.09185598,6.2065965 -0.26855561,5.7232462 0.08705218,5.6044713 Z"
          sodipodi:nodetypes="sssss" /><path
          style="fill:#ffc1ce;fill-opacity:1;stroke:#cd7787;stroke-width:0.261408;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1276,7 +1276,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="0,33 -6,25 6,25 "
+           points="6,25 0,33 -6,25 "
            fill="#ca7280"
            id="polygon7-1-9-7-0"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1314,7 +1314,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="-6,25 6,25 0,33 "
+           points="0,33 -6,25 6,25 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-6"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1363,7 +1363,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="-6,25 6,25 0,33 "
+           points="0,33 -6,25 6,25 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1401,7 +1401,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="0,33 -6,25 6,25 "
+           points="6,25 0,33 -6,25 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9-4"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1451,7 +1451,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="6,25 0,33 -6,25 "
+           points="-6,25 6,25 0,33 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9-8"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1489,7 +1489,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="0,33 -6,25 6,25 "
+           points="6,25 0,33 -6,25 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9-8-4"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1538,7 +1538,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="6,25 0,33 -6,25 "
+           points="-6,25 6,25 0,33 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9-5"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1576,7 +1576,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="0,33 -6,25 6,25 "
+           points="6,25 0,33 -6,25 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9-5-8"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1625,7 +1625,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="-6,25 6,25 0,33 "
+           points="0,33 -6,25 6,25 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9-6"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
@@ -1663,7 +1663,7 @@
            x="43.401966"
            y="23.795654"
            ry="1.0390515" /><polygon
-           points="6,25 0,33 -6,25 "
+           points="-6,25 6,25 0,33 "
            fill="#ca7280"
            id="polygon7-1-9-7-0-9-6-4"
            transform="matrix(0,-0.19269377,0.22385163,0,39.315336,25.951966)"
