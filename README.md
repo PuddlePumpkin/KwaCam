@@ -25,25 +25,31 @@ Photos are saved to the SD card in the `3ds/KwaCam/Captures` folder as bitmap .b
 ## Installation
 ⚠️ Warning, I'm new 3ds development and a lot of chat gpt was used in building this app! ⚠️
 
-To install and run this app on your CFW 3DS, you have two options depending on your preferred format:
+Requires 3ds with Custom Firmware
 
 **Option 1: CIA (Install to Home Menu)**
 1. Copy the `KwaCam.cia` file to your 3DS's SD card.
 2. Install via [FBI](https://github.com/Steveice10/FBI).
-3. **Important for Audio:** Your 3DS needs its DSP firmware dumped to play audio (even if running in Azahar emulator). Open the Rosalina Menu (`Left Shoulder + D-Pad Down + Select`) -> `Misc options` -> `Dump DSP Firmware`.
+3. **Important for Audio:** Your 3DS needs its DSP firmware dumped to play audio. (`Left Shoulder + D-Pad Down + Select`) -> `Misc options` -> `Dump DSP Firmware`.
 
 **Option 2: 3DSX (Run via Homebrew Launcher)**
-1. Create a folder named `KwaCam` inside the `3ds` folder on your SD card (`sdmc:/3ds/KwaCam/`).
-2. Copy the `KwaCam.3dsx` file into that folder.
-3. Launch the app through the Homebrew Launcher.
-4. **Important for Audio:** Your 3DS needs its DSP firmware dumped to play audio (even if running in Azahar emulator). Open the Rosalina Menu (`Left Shoulder + D-Pad Down + Select`) -> `Misc options` -> `Dump DSP Firmare`.
+1. Copy the `KwaCam.3dsx` file into `sdmc:/3ds/` (or `sdmc:/3ds/KwaCam/` if preferred).
+2. Launch the app through the Homebrew Launcher.
+3. **Important for Audio:** Your 3DS needs its DSP firmware dumped to play audio. (`Left Shoulder + D-Pad Down + Select`) -> `Misc options` -> `Dump DSP Firmare`.
 
 
 ## Building
 This project requires [devkitPro](https://devkitpro.org/wiki/Getting_Started) to compile.
 1. Download devkit pro with 3ds configuration: https://devkitpro.org/wiki/Getting_Started
-2. Run Build_3dsx.bat file to compile the project!
+2. Run `Build_3dsx.bat` to build.
 
 Building cia requires [makerom.exe](https://github.com/3DSGuy/Project_CTR/releases), and [bannertool.exe](https://github.com/Epicpkmn11/bannertool/releases) to be placed in the `External` folder
 
 ⚠️ Warning, I'm new 3ds development and a lot of chat gpt was used in building this app! ⚠️
+
+## Credits
+- Developed by Keira RK.
+- Project heavily uses devkitpro - https://devkitpro.org/ Thank you to them ❤️!
+
+## License
+Was too lazy to include a license, but I pinky promise you can use my SVG's, main.c code, the build scripts, and my project structure as templates for whatever! (just please don't sell my assets as part of an asset pack!). Button icon templates are found in `Art/InterfaceDesign.svg`
