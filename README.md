@@ -16,9 +16,9 @@
 Photos are saved to the SD card in the `3ds/KwaCam/Captures` folder as bitmap .bmp files.
 
 ## Controls
-- X + D-Pad / Analog Stick: Sort Pixels
 - A: Take photo
-- Y: Blur photo
+- Y + D-Pad / Analog Stick: Sort Pixels
+- X: Blur photo
 - Start: Open config menu
 - Select: Save photo to SD card
 
