@@ -30,7 +30,7 @@ Requires 3ds with Custom Firmware
 **Option 1: CIA (Install to Home Menu)**
 1. Copy the `KwaCam.cia` file to your 3DS's SD card.
 2. Install via [FBI](https://github.com/Steveice10/FBI).
-3. **Important for Audio:** Your 3DS needs its DSP firmware dumped to play audio. (`Left Shoulder + D-Pad Down + Select`) -> `Misc options` -> `Dump DSP Firmware`.
+3. **Important for Audio:** Your 3DS may need its DSP firmware dumped to play audio. (`Left Shoulder + D-Pad Down + Select`) -> `Misc options` -> `Dump DSP Firmware`.
 
 **Option 2: 3DSX (Run via Homebrew Launcher)**
 1. Copy the `KwaCam.3dsx` file into `sdmc:/3ds/` (or `sdmc:/3ds/KwaCam/` if preferred).
