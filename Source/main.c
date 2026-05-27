@@ -464,24 +464,29 @@ static u16* selected_image(void) {
 static void blur_pass(const u16* src, u16* dst) {
     memcpy(dst, src, CAM_FRAME_BYTES);
 
+    static const int kernel[3][3] = {
+        {1, 2, 1},
+        {2, 4, 2},
+        {1, 2, 1}
+    };
+
     for (int y = 1; y < CAM_HEIGHT - 1; y++) {
         for (int x = 1; x < CAM_WIDTH - 1; x++) {
-            int r = 0;
-            int g = 0;
-            int b = 0;
+            int r = 0, g = 0, b = 0;
 
             for (int oy = -1; oy <= 1; oy++) {
                 for (int ox = -1; ox <= 1; ox++) {
-                    u16 p = src[(y + oy) * CAM_WIDTH + x + ox];
-                    r += p & 0x1F;
-                    g += (p >> 5) & 0x3F;
-                    b += (p >> 11) & 0x1F;
+                    u16 p = src[(y + oy) * CAM_WIDTH + (x + ox)];
+                    int weight = kernel[oy + 1][ox + 1];
+                    r += (p & 0x1F) * weight;
+                    g += ((p >> 5) & 0x3F) * weight;
+                    b += ((p >> 11) & 0x1F) * weight;
                 }
             }
 
-            r /= 9;
-            g /= 9;
-            b /= 9;
+            r >>= 4;
+            g >>= 4;
+            b >>= 4;
             dst[y * CAM_WIDTH + x] = (u16)(r | (g << 5) | (b << 11));
         }
     }
